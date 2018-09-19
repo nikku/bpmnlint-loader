@@ -1,6 +1,7 @@
-import compileConfig from 'bpmnlint/lib/support/compile-config';
+const compileConfig = require('bpmnlint/lib/support/compile-config');
 
-export default async function bpmnlintLoader(source) {
+
+async function bpmnlintLoader(source) {
 
   async function run(code) {
 
@@ -13,3 +14,5 @@ export default async function bpmnlintLoader(source) {
 
   run(source).then(c => callback(null, c), callback);
 }
+
+module.exports = bpmnlintLoader;
