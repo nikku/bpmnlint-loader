@@ -6,6 +6,10 @@ All notable changes to [bpmnlint-loader](https://github.com/nikku/bpmnlint-loade
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.1.2
+
+* `CHORE`: support `bpmnlint@4`
+
 ## 0.1.1
 
 * `FIX`: make loader a CJS module
