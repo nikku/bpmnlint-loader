@@ -34,6 +34,6 @@
     "webpack": "^4.19.1"
   },
   "peerDependencies": {
-    "bpmnlint": "^3.2.0"
+    "bpmnlint": "^3.2.0 || ^4.0.0"
   }
 }
