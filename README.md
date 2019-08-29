@@ -41,6 +41,8 @@ module.exports = {
 };
 ```
 
+This will ensure that [bpmnlint configuration files](https://github.com/bpmn-io/bpmnlint#configuration) can be consumed by your build.
+
 # License
 
 MIT
