@@ -1,6 +1,6 @@
 # bpmnlint-loader
 
-[![Build Status](https://travis-ci.org/nikku/bpmnlint-loader.svg?branch=master)](https://travis-ci.org/nikku/bpmnlint-loader)
+[![Build Status](https://travis-ci.com/nikku/bpmnlint-loader.svg?branch=master)](https://travis-ci.com/nikku/bpmnlint-loader)
 
 Consume [bpmnlint](https://github.com/bpmn-io/bpmnlint) config files with [webpack](https://webpack.js.org).
 
