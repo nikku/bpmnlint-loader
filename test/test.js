@@ -42,7 +42,7 @@ async function compile(fixture) {
 
   const stats = await compiler(fixture);
 
-  const module = stats.toJson().modules.find(m => m.id === fixture);
+  const module = stats.toJson({ source: true }).modules.find(m => m.id === fixture);
 
   expect(module).to.exist;
 
