@@ -6,6 +6,7 @@ import { expect } from 'chai';
 describe('bpmnlint-loader', function() {
 
   it('should compile', async function() {
+
     // when
     const { code } = await compile('./fixtures/.bpmnlintrc');
 
@@ -38,7 +39,6 @@ describe('bpmnlint-loader', function() {
 // helper ////////////////////
 
 async function compile(fixture) {
-
   const stats = await compiler(fixture);
 
   const module = stats.toJson().modules.find(m => m.id === fixture);
