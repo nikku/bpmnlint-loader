@@ -6,6 +6,7 @@ import { expect } from 'chai';
 describe('bpmnlint-loader', function() {
 
   it('should compile', async function() {
+
     // when
     const { code } = await compile('./fixtures/.bpmnlintrc');
 
