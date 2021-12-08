@@ -14,12 +14,12 @@ export default function compiler(fixture, options = {}) {
       filename: 'bundle.js',
     },
     module: {
-      rules: [{
+      rules: [ {
         test: /\.(bpmnlintrc|json)$/,
         use: {
           loader: path.resolve(__dirname, '../index.js')
         }
-      }]
+      } ]
     }
   });
 
