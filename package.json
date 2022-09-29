@@ -35,5 +35,8 @@
   },
   "peerDependencies": {
     "bpmnlint": "*"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
