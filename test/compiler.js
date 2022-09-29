@@ -1,10 +1,10 @@
-import path from 'path';
+const path = require('path');
 
-import webpack from 'webpack';
-import memoryfs from 'memory-fs';
+const webpack = require('webpack');
+const memoryfs = require('memory-fs');
 
 
-export default function compiler(fixture, options = {}) {
+module.exports = function compiler(fixture, options = {}) {
   const compiler = webpack({
     mode: 'development',
     context: __dirname,
@@ -41,4 +41,4 @@ export default function compiler(fixture, options = {}) {
       resolve(stats);
     });
   });
-}
+};

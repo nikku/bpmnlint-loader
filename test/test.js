@@ -1,6 +1,6 @@
-import compiler from './compiler';
+const compiler = require('./compiler.js');
 
-import { expect } from 'chai';
+const { expect } = require('chai');
 
 
 describe('bpmnlint-loader', function() {
