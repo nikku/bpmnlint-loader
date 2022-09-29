@@ -1,6 +1,6 @@
 {
   "name": "bpmnlint-loader",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Consume bpmnlint config files with webpack",
   "main": "index.js",
   "scripts": {
