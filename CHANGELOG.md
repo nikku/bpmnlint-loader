@@ -6,6 +6,10 @@ All notable changes to [bpmnlint-loader](https://github.com/nikku/bpmnlint-loade
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.1.6
+
+* `CHORE`: support `bpmnlint@8`
+
 ## 0.1.5
 
 * `CHORE`: support `bpmnlint@7`
