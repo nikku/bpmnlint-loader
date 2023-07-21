@@ -24,6 +24,8 @@
   "license": "MIT",
   "devDependencies": {
     "bpmnlint": "^9.2.0",
+    "bpmnlint-plugin-external": "file:./test/bpmnlint-plugin-external",
+    "bpmnlint-plugin-simple": "file:./test/bpmnlint-plugin-simple",
     "chai": "^4.3.6",
     "eslint": "^8.24.0",
     "eslint-plugin-bpmn-io": "^0.16.0",

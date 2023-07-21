@@ -1,0 +1,7 @@
+{
+  "name": "bpmnlint-plugin-simple",
+  "version": "0.0.0",
+  "description": "A simple bpmnlint plug-in",
+  "main": "index.js",
+  "sideEffects": false
+}
