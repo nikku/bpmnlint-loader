@@ -1,3 +1,7 @@
 {
-  "extends": "bpmnlint:recommended"
+  "extends": [
+    "bpmnlint:recommended",
+    "plugin:simple/recommended",
+    "plugin:external/recommended"
+  ]
 }

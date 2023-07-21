@@ -12,8 +12,26 @@ describe('bpmnlint-loader', function() {
 
     // then
     // expect resolved bundle
-    expect(code).to.contain('import rule_0 from \'bpmnlint/rules/conditional-flows\'');
-    expect(code).to.contain('cache[\'bpmnlint/conditional-flows\'] = rule_0');
+    expect(code).to.match(
+      /import rule_[0-9]+ from 'bpmnlint\/rules\/conditional-flows'/
+    );
+    expect(code).to.match(
+      /cache\['bpmnlint\/conditional-flows'\] = rule_[0-9]+/
+    );
+
+    expect(code).to.match(
+      /import rule_[0-9]+ from 'bpmnlint-plugin-simple\/rules\/foo'/
+    );
+    expect(code).to.match(
+      /cache\['bpmnlint-plugin-simple\/foo'\] = rule_[0-9]+/
+    );
+
+    expect(code).to.match(
+      /import rule_[0-9]+ from 'bpmnlint-plugin-external\/src\/foo'/
+    );
+    expect(code).to.match(
+      /cache\['bpmnlint-plugin-external\/foo'\] = rule_[0-9]+/
+    );
   });
 
 

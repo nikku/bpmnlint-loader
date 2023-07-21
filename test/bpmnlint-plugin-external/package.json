@@ -1,0 +1,7 @@
+{
+  "name": "bpmnlint-plugin-external",
+  "version": "0.0.0",
+  "description": "A test bpmnlint plug-in using external rules",
+  "main": "src/index.js",
+  "sideEffects": false
+}
